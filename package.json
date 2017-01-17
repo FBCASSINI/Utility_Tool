@@ -11,9 +11,11 @@
     "url": "git+https://github.com/kdbaustert/Utility_Tool.git"
   },
   "author": "Kenny Baustert",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdbaustert/url_shortener/issues"
   },
-  "homepage": "https://github.com/kdbaustert/Utility_Tool",
+  "homepage": "https://github.com/kdbaustert/Utility_Tool#readme",
   "dependencies": {
     "fs": "0.0.1-security",
     "colors": "^1.1.2"
