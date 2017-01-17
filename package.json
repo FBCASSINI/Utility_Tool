@@ -1,0 +1,21 @@
+{
+  "name": "NextDesignz_tool",
+  "version": "1.0.0",
+  "description": "Utility Tool console.logs",
+  "main": "debug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdbaustert/Utility_Tool.git"
+  },
+  "author": "Kenny Baustert",
+  "license": "MIT",
+  },
+  "homepage": "https://github.com/kdbaustert/Utility_Tool",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "colors": "^1.1.2"
+  }
+}
