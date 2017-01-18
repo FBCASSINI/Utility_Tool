@@ -1,5 +1,5 @@
 {
-  "name": "NextDesignz_tool",
+  "name": "kb-loggertool",
   "version": "1.0.0",
   "description": "Utility Tool console.logs",
   "main": "debug.js",

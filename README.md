@@ -3,7 +3,7 @@ Logging utility tool
 
 #installation
  ```
- $ npm install NextDesignz_loggingtool
+ $ npm install kb-loggertool
  ```
 #Usage
 enable debugging
@@ -20,7 +20,7 @@ DEBUG=false
 #Require
 
 ```
-const logging = require('NextDesignz_loggingtool');
+const logging = require('kb-loggertool');
 ```
 
 #How to use
