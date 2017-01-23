@@ -23,7 +23,7 @@ DEBUG=false
 const logging = require('kb-loggertool');
 ```
 
-#How to use
+#How to use 
 
 Throughout your code use
 
