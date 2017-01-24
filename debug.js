@@ -1,7 +1,6 @@
 // Requires
 
 const color = require('colors');
-const fs = require('fs');
 
 // Setting colors
 color.setTheme({
@@ -13,18 +12,13 @@ color.setTheme({
 
 function debugSuccess(message) {
   if (process.env.DEBUG) {
-    console.log(color.success(message));
-        // Logging
-    fs.appendFile('./logs/log.log', message + '\n', (err) => {});
+    console.warn(color.success(message));
   }
 }
 
 function debugError(message) {
   if (process.env.DEBUG) {
-    console.log(color.error(message));
-
-    // Logging
-    fs.appendFile('./logs/log.log', message + '\n', (err) => {});
+    console.error(color.error(message));
   }
 }
 
